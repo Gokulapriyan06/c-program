@@ -1,0 +1,23 @@
+// Program 1 : Add two sum values 
+
+#include<stdio.h>
+int a;
+int b;
+int sum =0;
+int main(){
+    printf("enter a number a:");
+    scanf("%d",&a);
+    
+    printf("enter a number b:");
+    scanf("%d",&b);
+    sum = a+b;
+    printf(" sum of two values:%d\n",sum);
+    return 0;
+}
+
+
+Output :
+
+enter a number a:5
+enter a number b:5
+sum of two values:10
