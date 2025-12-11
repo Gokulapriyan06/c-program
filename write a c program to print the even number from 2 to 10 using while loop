@@ -1,0 +1,24 @@
+// // // write a c program to print the even number from 2 to 10 using while loop
+
+#include<stdio.h>
+
+int main(){
+    int i = 2;
+
+    printf("printing numbers from 2 to 10:\n");
+
+    while(i<=10){
+        printf("%d \n",i);
+        i+=2;
+    }
+    return 0;
+}
+
+output
+
+printing numbers from 2 to 10:
+2 
+4 
+6 
+8 
+10 
