@@ -1,0 +1,26 @@
+* write a c program to print any number until the user the print the 0 the program should be ended 
+
+
+#include <stdio.h>
+
+int main(){
+    int i=1;
+    int n;
+    do{
+        printf("Enter your number: ");
+        scanf("%d",&n);
+        printf("The entered Number is:%d \n",n);
+        i++;
+    }
+    while(n!=0);
+    printf("The program is Ended");
+
+    return 0;
+}
+
+output
+Enter your number: 1
+The entered Number is:1 
+Enter your number: 0
+The entered Number is:0 
+The program is Ended
