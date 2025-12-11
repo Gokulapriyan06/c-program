@@ -1,0 +1,32 @@
+// write a c program to print the grade mark system
+
+#include<stdio.h>
+
+int main(){
+
+    int marks;
+    printf("Enter your marks :");
+    scanf("%d", &marks);
+
+    if(marks>=90){
+        printf("Grade A");
+    }
+    else if(marks>=70){
+        printf("Grade B");
+    }
+    else if(marks>=60){
+        printf("Grade C");
+    }
+    else if(marks>=40){
+        printf("Grade D");
+    }
+    else{
+        printf("Fail marks");
+    }
+
+    return 0;
+}
+output
+
+Enter your marks :70
+Grade B
