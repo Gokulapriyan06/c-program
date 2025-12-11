@@ -21,3 +21,7 @@ int main() {
     }
 
     return 0;
+
+output
+Enter your age: 33
+Adult
