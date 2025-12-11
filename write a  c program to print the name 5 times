@@ -12,3 +12,12 @@ int main(){
     }
     return 0;
 }
+
+
+output
+Printing the name - 5 times :
+GOKUL
+GOKUL
+GOKUL
+GOKUL
+GOKUL
