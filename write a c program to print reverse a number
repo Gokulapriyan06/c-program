@@ -1,0 +1,23 @@
+// // write a c program to print reverse a number
+
+ #include<stdio.h>
+
+ int main(){
+     int i=5;
+
+     printf("printing reverse the numbers from 1 to 5:\n");
+
+     while(i>=1){
+         printf("%d \n",i);
+         i--;
+     }
+     return 0;
+ }
+
+output
+printing reverse the numbers from 1 to 5:
+5 
+4 
+3 
+2 
+1 
