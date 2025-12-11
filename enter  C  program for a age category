@@ -1,0 +1,23 @@
+//enter  C  program for a age category for the the age whose age is less tha n 12 is child and the age is more 12 is Adult and whose age is above than 55 is senoir citizen 
+
+
+#include <stdio.h>
+int main() {
+    int age;
+    printf("Enter your age: ");
+    scanf("%d", &age);
+
+    if (age <= 12 && age >= 0) {
+        printf("Child");
+    }
+    else if (age >= 13 && age < 55) {
+        printf("Adult");
+    }
+    else if (age >= 55) {
+        printf("Senior citizen");
+    }
+    else {
+        printf("Invalid");
+    }
+
+    return 0;
