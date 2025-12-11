@@ -1,0 +1,14 @@
+// // write a  c program to print the name 5 times
+
+
+#include<stdio.h>
+int main(){
+    int i = 1;
+
+    printf("Printing the name - 5 times :\n");
+    while(i<=5){
+        printf("GOKUL\n");
+        i++;
+    }
+    return 0;
+}
