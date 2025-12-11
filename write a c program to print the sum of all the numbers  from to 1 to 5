@@ -1,0 +1,23 @@
+// // write a c program to print the sum of all the numbers
+// // from to 1 to 5
+
+
+#include<stdio.h>
+
+int main(){
+    int i =1,sum = 0;
+
+    printf(" sum of the values \n ");
+    while(i<=5){
+        sum +=i;
+        i++;
+    }
+    printf("sum %d\n", sum);
+    return 0;
+
+}
+output
+
+ sum of the values 
+ sum 15
+
