@@ -1,0 +1,47 @@
+//Linear Search 
+
+#include <stdio.h>
+#include <stdbool.h>
+
+int main() {
+
+    int n, target;
+
+    printf("Enter the size of an array:\n");
+    scanf("%d", &n);
+
+    int arr[n];   // declare AFTER reading n
+
+    printf("Enter your elements:\n");
+    for (int i = 0; i < n; i++) {
+        scanf("%d", &arr[i]);
+    }
+
+    printf("Enter your target element:\n");
+    scanf("%d", &target);
+
+    bool found = false;
+
+    for (int i = 0; i < n; i++) {
+        if (arr[i] == target) {
+            printf("Element found at the index: %d\n", i);
+            found = true;
+            break;
+        }
+    }
+
+    if (!found) {
+        printf("Element not found\n");
+    }
+
+    return 0;
+}
+
+Output 
+Enter the size of an array:
+5
+Enter your elements:
+10 20 30 40 50 
+Enter your target element:
+40
+Element found at the index: 3
